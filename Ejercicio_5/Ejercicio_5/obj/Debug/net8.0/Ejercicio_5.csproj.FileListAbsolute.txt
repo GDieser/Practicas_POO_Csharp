@@ -1,0 +1,14 @@
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\bin\Debug\net8.0\Ejercicio_5.exe
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\bin\Debug\net8.0\Ejercicio_5.deps.json
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\bin\Debug\net8.0\Ejercicio_5.runtimeconfig.json
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\bin\Debug\net8.0\Ejercicio_5.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\bin\Debug\net8.0\Ejercicio_5.pdb
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.AssemblyInfoInputs.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.AssemblyInfo.cs
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.csproj.CoreCompileInputs.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\refint\Ejercicio_5.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.pdb
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\Ejercicio_5.genruntimeconfig.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_5\Ejercicio_5\obj\Debug\net8.0\ref\Ejercicio_5.dll

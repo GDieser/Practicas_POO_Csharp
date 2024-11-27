@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D3763-0177-4790-92CE-CBD7F4471F44}|Ejercicio_3\\Ejercicio_3.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_3\\ejercicio_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D3763-0177-4790-92CE-CBD7F4471F44}|Ejercicio_3\\Ejercicio_3.csproj|solutionrelative:ejercicio_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D3763-0177-4790-92CE-CBD7F4471F44}|Ejercicio_3\\Ejercicio_3.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_3\\ejercicio_3\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D3763-0177-4790-92CE-CBD7F4471F44}|Ejercicio_3\\Ejercicio_3.csproj|solutionrelative:ejercicio_3\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CuentaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_3\\Ejercicio_3\\CuentaBancaria.cs",
+              "RelativeDocumentMoniker": "Ejercicio_3\\CuentaBancaria.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_3\\Ejercicio_3\\CuentaBancaria.cs",
+              "RelativeToolTip": "Ejercicio_3\\CuentaBancaria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:46:14.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_3\\Ejercicio_3\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_3\\Program.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_3\\Ejercicio_3\\Program.cs",
+              "RelativeToolTip": "Ejercicio_3\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:45:19.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

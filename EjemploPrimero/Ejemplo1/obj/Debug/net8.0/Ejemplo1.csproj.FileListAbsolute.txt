@@ -1,0 +1,14 @@
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+C:\Users\Maxi C#\Git\PRACTICAS 2024\EjemploPrimero\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll

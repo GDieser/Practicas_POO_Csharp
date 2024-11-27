@@ -1,0 +1,10 @@
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\bin\Debug\Ejemplo2.exe.config
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\bin\Debug\Ejemplo2.exe
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\bin\Debug\Ejemplo2.pdb
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.csproj.AssemblyReference.cache
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.Properties.Resources.resources
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.csproj.GenerateResource.cache
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.csproj.CoreCompileInputs.cache
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.exe
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.pdb
+C:\Users\Maxi C#\Git\PRACTICAS 2024\Ejemplo2\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.Form1.resources
