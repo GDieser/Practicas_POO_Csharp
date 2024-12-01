@@ -31,7 +31,17 @@ namespace Ejercicio_7
 
         private void btnBotella_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("En construcción...");
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(frmBotella))
+                {
+                    return;
+                }
+            }
+
+            frmBotella botella = new frmBotella();
+
+            botella.Show();
         }
 
         private void agregarBotellaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,7 +51,14 @@ namespace Ejercicio_7
 
         private void btnAnimal_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("En construcción...");
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(frmAnimal))
+                { return; }
+
+            }
+            frmAnimal frmAnimal = new frmAnimal();
+            frmAnimal.ShowDialog();
         }
 
         private void agregarAnimalToolStripMenuItem_Click(object sender, EventArgs e)

@@ -17,3 +17,5 @@ C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_7
 C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_7\Ejercicio_7\obj\Debug\net8.0-windows\Ejercicio_7.Persona.resources
 C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_7\Ejercicio_7\obj\Debug\net8.0-windows\Ejercicio_7.Properties.Resources.resources
 C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_7\Ejercicio_7\obj\Debug\net8.0-windows\Ejercicio_7.frmPrincipal.resources
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_7\Ejercicio_7\obj\Debug\net8.0-windows\Ejercicio_7.frmBotella.resources
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_7\Ejercicio_7\obj\Debug\net8.0-windows\Ejercicio_7.frmAnimal.resources
