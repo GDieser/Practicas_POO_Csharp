@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             dgvDiscos = new DataGridView();
+            pbDiscos = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbDiscos).BeginInit();
             SuspendLayout();
             // 
             // dgvDiscos
@@ -39,22 +41,35 @@
             dgvDiscos.Name = "dgvDiscos";
             dgvDiscos.Size = new Size(329, 249);
             dgvDiscos.TabIndex = 0;
+            dgvDiscos.SelectionChanged += dgvDiscos_SelectionChanged;
+            // 
+            // pbDiscos
+            // 
+            pbDiscos.Location = new Point(433, 47);
+            pbDiscos.Name = "pbDiscos";
+            pbDiscos.Size = new Size(264, 249);
+            pbDiscos.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbDiscos.TabIndex = 1;
+            pbDiscos.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(597, 396);
+            ClientSize = new Size(741, 396);
+            Controls.Add(pbDiscos);
             Controls.Add(dgvDiscos);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbDiscos).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private DataGridView dgvDiscos;
+        private PictureBox pbDiscos;
     }
 }
