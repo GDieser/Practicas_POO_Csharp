@@ -10,7 +10,7 @@ namespace Ejercicio_8
     {
         public string Titulo { get; set; }
 
-        public DateTime FechaLanzamiento { get; set; }
+        public string FechaLanzamiento { get; set; }
 
         public int CantidadCanciones { get; set; }
 

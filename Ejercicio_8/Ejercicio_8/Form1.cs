@@ -13,6 +13,10 @@ namespace Ejercicio_8
             DiscoNegocio discos = new DiscoNegocio();
             listaDiscos = discos.listar();
             dgvDiscos.DataSource = listaDiscos;
+            
+            dgvDiscos.Columns[3].Visible = false;
+            dgvDiscos.Columns[4].Visible = false;
+            dgvDiscos.Columns[5].Visible = false;
 
             pbDiscos.Load(listaDiscos[0].UrlImagen);
 

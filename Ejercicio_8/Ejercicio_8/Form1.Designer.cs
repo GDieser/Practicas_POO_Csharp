@@ -39,13 +39,13 @@
             dgvDiscos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDiscos.Location = new Point(47, 47);
             dgvDiscos.Name = "dgvDiscos";
-            dgvDiscos.Size = new Size(329, 249);
+            dgvDiscos.Size = new Size(524, 249);
             dgvDiscos.TabIndex = 0;
             dgvDiscos.SelectionChanged += dgvDiscos_SelectionChanged;
             // 
             // pbDiscos
             // 
-            pbDiscos.Location = new Point(433, 47);
+            pbDiscos.Location = new Point(631, 47);
             pbDiscos.Name = "pbDiscos";
             pbDiscos.Size = new Size(264, 249);
             pbDiscos.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -56,7 +56,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(741, 396);
+            ClientSize = new Size(924, 407);
             Controls.Add(pbDiscos);
             Controls.Add(dgvDiscos);
             Name = "Form1";

@@ -22,7 +22,7 @@ namespace Ejercicio_8
             {
                 conexion.ConnectionString = "server=DESKTOP-O2NKURA\\SQLEXPRESS01; database=DISCOS_DB2; Integrated Security=True; TrustServerCertificate=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "Select Titulo, CantidadCanciones, UrlImagenTapa From DISCOS";
+                comando.CommandText = "Select Titulo, FechaLanzamiento, CantidadCanciones, UrlImagenTapa From DISCOS";
 
                 comando.Connection = conexion;
 
@@ -34,6 +34,10 @@ namespace Ejercicio_8
                     Disco aux = new Disco();
 
                     aux.Titulo = (string)lector["Titulo"];
+
+                    DateTime fecha =  (DateTime)lector["FechaLanzamiento"];
+                    aux.FechaLanzamiento = fecha.ToString("yyyy/mm/dd");
+
                     aux.CantidadCanciones = (int)lector["CantidadCanciones"];
                     aux.UrlImagen = (string)lector["UrlImagenTapa"];
 
