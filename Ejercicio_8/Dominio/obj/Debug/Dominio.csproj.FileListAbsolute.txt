@@ -1,0 +1,6 @@
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Dominio\bin\Debug\Dominio.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Dominio\obj\Debug\Dominio.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Dominio\obj\Debug\Dominio.pdb

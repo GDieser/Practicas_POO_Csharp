@@ -39,7 +39,7 @@
             dgvDiscos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvDiscos.Location = new Point(47, 47);
             dgvDiscos.Name = "dgvDiscos";
-            dgvDiscos.Size = new Size(524, 249);
+            dgvDiscos.Size = new Size(559, 249);
             dgvDiscos.TabIndex = 0;
             dgvDiscos.SelectionChanged += dgvDiscos_SelectionChanged;
             // 

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\ejercicio_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C7B3954-82B6-462C-BF18-636F550AB263}|Negocio\\Negocio.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\negocio\\disconegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C7B3954-82B6-462C-BF18-636F550AB263}|Negocio\\Negocio.csproj|solutionrelative:negocio\\disconegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\ejercicio_8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\ejercicio_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\ejercicio_8\\disconegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\disconegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D215897-ABCF-4798-AB66-2CD3A96A1319}|Dominio\\Dominio.csproj|C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\dominio\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D215897-ABCF-4798-AB66-2CD3A96A1319}|Dominio\\Dominio.csproj|solutionrelative:dominio\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\ejercicio_8\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D215897-ABCF-4798-AB66-2CD3A96A1319}|Dominio\\Dominio.csproj|C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\dominio\\estilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D215897-ABCF-4798-AB66-2CD3A96A1319}|Dominio\\Dominio.csproj|solutionrelative:dominio\\estilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\ejercicio_8\\tipoedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\tipoedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|c:\\users\\maxi c#\\curso lvl 2\\curso segunda parte 2024\\practicas 2024\\ejercicio_8\\ejercicio_8\\estilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\estilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\ejercicio_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}|Ejercicio_8\\Ejercicio_8.csproj|solutionrelative:ejercicio_8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1D215897-ABCF-4798-AB66-2CD3A96A1319}|Dominio\\Dominio.csproj|C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\dominio\\tipoedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D215897-ABCF-4798-AB66-2CD3A96A1319}|Dominio\\Dominio.csproj|solutionrelative:dominio\\tipoedicion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,72 +46,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TipoEdicion.cs",
-              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\TipoEdicion.cs",
-              "RelativeDocumentMoniker": "Ejercicio_8\\TipoEdicion.cs",
-              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\TipoEdicion.cs",
-              "RelativeToolTip": "Ejercicio_8\\TipoEdicion.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T01:19:14.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Estilo.cs",
-              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Estilo.cs",
-              "RelativeDocumentMoniker": "Ejercicio_8\\Estilo.cs",
-              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Estilo.cs",
-              "RelativeToolTip": "Ejercicio_8\\Estilo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T00:49:40.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Disco.cs",
-              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Disco.cs",
-              "RelativeDocumentMoniker": "Ejercicio_8\\Disco.cs",
-              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Disco.cs",
-              "RelativeToolTip": "Ejercicio_8\\Disco.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAtAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Program.cs",
+              "RelativeDocumentMoniker": "Ejercicio_8\\Program.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Program.cs",
+              "RelativeToolTip": "Ejercicio_8\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:07:03.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Form1.cs",
-              "RelativeDocumentMoniker": "Ejercicio_8\\Form1.cs",
-              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Form1.cs",
-              "RelativeToolTip": "Ejercicio_8\\Form1.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCwAAAD3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T02:31:25.729Z",
+              "WhenOpened": "2024-12-07T02:00:03.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "DiscoNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\DiscoNegocio.cs",
-              "RelativeDocumentMoniker": "Ejercicio_8\\DiscoNegocio.cs",
-              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\DiscoNegocio.cs",
-              "RelativeToolTip": "Ejercicio_8\\DiscoNegocio.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwDAAAABBAAAA",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\DiscoNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\DiscoNegocio.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\DiscoNegocio.cs",
+              "RelativeToolTip": "Negocio\\DiscoNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T01:09:57.366Z",
+              "WhenOpened": "2024-12-07T01:57:27.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoEdicion.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\TipoEdicion.cs",
+              "RelativeDocumentMoniker": "Dominio\\TipoEdicion.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\TipoEdicion.cs",
+              "RelativeToolTip": "Dominio\\TipoEdicion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:50:54.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Estilo.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Estilo.cs",
+              "RelativeDocumentMoniker": "Dominio\\Estilo.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Estilo.cs",
+              "RelativeToolTip": "Dominio\\Estilo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:50:52.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Disco.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Disco.cs",
+              "RelativeDocumentMoniker": "Dominio\\Disco.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Disco.cs",
+              "RelativeToolTip": "Dominio\\Disco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:50:38.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Form1.cs",
+              "RelativeDocumentMoniker": "Ejercicio_8\\Form1.cs",
+              "ToolTip": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Form1.cs",
+              "RelativeToolTip": "Ejercicio_8\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:31:25.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Form1.cs",
               "RelativeDocumentMoniker": "Ejercicio_8\\Form1.cs",

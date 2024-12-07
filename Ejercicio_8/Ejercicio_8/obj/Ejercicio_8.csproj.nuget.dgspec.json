@@ -4,6 +4,21 @@
     "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Ejercicio_8.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Ejercicio_8.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +43,14 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj"
+              },
+              "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj": {
+                "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -72,6 +94,25 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj",
+        "projectName": "Negocio",
+        "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }

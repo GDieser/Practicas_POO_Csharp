@@ -585,6 +585,27 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Dominio/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dominio.dll": {}
+        }
+      },
+      "Negocio/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Negocio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Negocio.dll": {}
+        }
       }
     }
   },
@@ -1679,11 +1700,23 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
+    },
+    "Negocio/1.0.0": {
+      "type": "project",
+      "path": "../Negocio/Negocio.csproj",
+      "msbuildProject": "../Negocio/Negocio.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Microsoft.Data.SqlClient >= 5.2.2"
+      "Dominio >= 1.0.0",
+      "Microsoft.Data.SqlClient >= 5.2.2",
+      "Negocio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1692,9 +1725,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Ejercicio_8.csproj",
-      "projectName": "Ejercicio_8",
-      "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\Ejercicio_8.csproj",
+      "projectUniqueName": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinForm-Discos.csproj",
+      "projectName": "WinForm-Discos",
+      "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinForm-Discos.csproj",
       "packagesPath": "C:\\Users\\German UTN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\obj\\",
       "projectStyle": "PackageReference",
@@ -1713,7 +1746,14 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Dominio\\Dominio.csproj"
+            },
+            "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj": {
+              "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Negocio\\Negocio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

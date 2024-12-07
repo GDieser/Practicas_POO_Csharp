@@ -1,3 +1,6 @@
+using Dominio;
+using Negocio;
+
 namespace Ejercicio_8
 {
     public partial class Form1 : Form
