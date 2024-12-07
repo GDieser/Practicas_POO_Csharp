@@ -19,5 +19,8 @@ namespace Ejercicio_8
         public int IdEstilo { get; set; }
 
         public int IdTipoEdicion { get; set; }
+
+        public Estilo EstiloDisco { get; set; }
+        public TipoEdicion Tipo { get; set; }
     }
 }
