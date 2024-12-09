@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r8twyVu0wyU=",
+  "dgSpecHash": "TCt3O5CmwTc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinForm-Discos.csproj",
+  "projectFilePath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinFormDiscos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\German UTN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\German UTN\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

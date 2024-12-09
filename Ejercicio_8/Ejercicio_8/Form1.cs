@@ -1,5 +1,6 @@
 using Dominio;
 using Negocio;
+using WinForm;
 
 namespace Ejercicio_8
 {
@@ -59,6 +60,12 @@ namespace Ejercicio_8
                 }
             }
 
+        }
+
+        private void btnAgregarDisco_Click(object sender, EventArgs e)
+        {
+            frmAgregarDisco agregar = new frmAgregarDisco();
+            agregar.ShowDialog();
         }
     }
 }

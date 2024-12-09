@@ -35,7 +35,8 @@ namespace Negocio
                     aux.Titulo = (string)lector["Titulo"];
                     //Transformamos a String
                     DateTime fecha =  (DateTime)lector["FechaLanzamiento"];
-                    aux.FechaLanzamiento = fecha.ToString("yyyy/mm/dd");
+                    aux.FechaLanzamiento = fecha.ToString("yyyy-MM-dd");
+                    //aux.FechaLanzamiento = (DateTime)lector["FechaLanzamiento"];
 
                     aux.CantidadCanciones = (int)lector["CantidadCanciones"];
                     aux.UrlImagen = (string)lector["UrlImagenTapa"];
@@ -60,5 +61,33 @@ namespace Negocio
             }
 
         }
+
+        public void agregar(Disco disco)
+        {
+            AccesoDatos dato = new AccesoDatos();   
+
+            try
+            {
+                dato.setConsulta("Insert Into DISCOS Values ('"+disco.Titulo+"', '"+disco.FechaLanzamiento+"', "+disco.CantidadCanciones+", '"+disco.UrlImagen+"', "+disco.IdEstilo+", "+disco.IdTipoEdicion+")");
+                dato.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                dato.cerrarConexion();
+            }
+
+        }
+
+        public void modificar(Disco disco)
+        {
+
+        }
     }
+
+
 }

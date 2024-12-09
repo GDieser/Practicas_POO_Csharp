@@ -1725,9 +1725,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinForm-Discos.csproj",
-      "projectName": "WinForm-Discos",
-      "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinForm-Discos.csproj",
+      "projectUniqueName": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinFormDiscos.csproj",
+      "projectName": "WinFormDiscos",
+      "projectPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\WinFormDiscos.csproj",
       "packagesPath": "C:\\Users\\German UTN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Maxi C#\\Curso LVL 2\\Curso Segunda Parte 2024\\PRACTICAS 2024\\Ejercicio_8\\Ejercicio_8\\obj\\",
       "projectStyle": "PackageReference",

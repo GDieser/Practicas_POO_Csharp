@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinForm-Discos", "Ejercicio_8\WinForm-Discos.csproj", "{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormDiscos", "Ejercicio_8\WinFormDiscos.csproj", "{7669C821-7BA0-49F2-AFFF-3D5D2CE2CB73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{1D215897-ABCF-4798-AB66-2CD3A96A1319}"
 EndProject
