@@ -38,8 +38,11 @@
             // dgvDiscos
             // 
             dgvDiscos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDiscos.EditMode = DataGridViewEditMode.EditProgrammatically;
             dgvDiscos.Location = new Point(369, 94);
+            dgvDiscos.MultiSelect = false;
             dgvDiscos.Name = "dgvDiscos";
+            dgvDiscos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvDiscos.Size = new Size(541, 249);
             dgvDiscos.TabIndex = 0;
             dgvDiscos.SelectionChanged += dgvDiscos_SelectionChanged;
@@ -74,6 +77,7 @@
             Controls.Add(pbDiscos);
             Controls.Add(dgvDiscos);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Discografias";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).EndInit();

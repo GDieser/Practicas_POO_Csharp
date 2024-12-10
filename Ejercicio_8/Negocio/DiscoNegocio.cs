@@ -21,7 +21,7 @@ namespace Negocio
             {
                 conexion.ConnectionString = "server=DESKTOP-O2NKURA\\SQLEXPRESS01; database=DISCOS_DB2; Integrated Security=True; TrustServerCertificate=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "Select Titulo, FechaLanzamiento, CantidadCanciones, UrlImagenTapa, E.Descripcion, T.Descripcion  From DISCOS D, ESTILOS E, TIPOSEDICION T Where E.Id = D.IdEstilo And D.IdTipoEdicion = T.Id";
+                comando.CommandText = "Select Titulo, FechaLanzamiento, CantidadCanciones, UrlImagenTapa, E.Descripcion As EstiloDescripcion, T.Descripcion As TipoDescripcion From DISCOS D, ESTILOS E, TIPOSEDICION T Where E.Id = D.IdEstilo And D.IdTipoEdicion = T.Id";
 
                 comando.Connection = conexion;
 
@@ -39,14 +39,22 @@ namespace Negocio
                     //aux.FechaLanzamiento = (DateTime)lector["FechaLanzamiento"];
 
                     aux.CantidadCanciones = (int)lector["CantidadCanciones"];
-                    aux.UrlImagen = (string)lector["UrlImagenTapa"];
+
+                    //Opciones para registros nulos
+
+                    //if(!(lector.IsDBNull(lector.GetOrdinal("UrlImagenTapa"))))
+                    //    aux.UrlImagen = (string)lector["UrlImagenTapa"];
+
+                    if (!(lector["UrlImagenTapa"] is DBNull))
+                        aux.UrlImagen = (string)lector["UrlImagenTapa"];
 
                     //Estilo, composicion (instanciamos)
+
                     aux.EstiloDisco = new Estilo();
-                    aux.EstiloDisco.Descripcion = (string)lector["Descripcion"];
+                    aux.EstiloDisco.Descripcion = (string)lector["EstiloDescripcion"];
 
                     aux.Tipo = new TipoEdicion();
-                    aux.Tipo.Descripcion = (string)lector["Descripcion"];
+                    aux.Tipo.Descripcion = (string)lector["TipoDescripcion"];
 
                     discos.Add(aux);
                 }

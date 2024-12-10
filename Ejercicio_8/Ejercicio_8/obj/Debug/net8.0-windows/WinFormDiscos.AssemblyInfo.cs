@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormDiscos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+494115f6b616a30ee65f4156f78b12c11a2d8b78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a90bb313b35baa64443fe08734e801a161119d77")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormDiscos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormDiscos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

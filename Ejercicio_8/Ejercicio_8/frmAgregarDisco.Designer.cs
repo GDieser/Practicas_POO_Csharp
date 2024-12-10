@@ -41,7 +41,9 @@
             cboxEstilo = new ComboBox();
             cBoxTipoEdicion = new ComboBox();
             btnAgregarDisco = new Button();
+            pbUrlImagen = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)nudCantidad).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbUrlImagen).BeginInit();
             SuspendLayout();
             // 
             // lblTitulo
@@ -111,6 +113,7 @@
             txbUrlImagen.Name = "txbUrlImagen";
             txbUrlImagen.Size = new Size(218, 23);
             txbUrlImagen.TabIndex = 7;
+            txbUrlImagen.Leave += txbUrlImagen_Leave;
             // 
             // lblEstilo
             // 
@@ -129,7 +132,7 @@
             lblTipoEdicion.Location = new Point(108, 334);
             lblTipoEdicion.Name = "lblTipoEdicion";
             lblTipoEdicion.Size = new Size(109, 21);
-            lblTipoEdicion.TabIndex = 9;
+            lblTipoEdicion.TabIndex = 10;
             lblTipoEdicion.Text = "Tipo Edicion:";
             // 
             // cboxEstilo
@@ -139,7 +142,7 @@
             cboxEstilo.Location = new Point(239, 285);
             cboxEstilo.Name = "cboxEstilo";
             cboxEstilo.Size = new Size(218, 23);
-            cboxEstilo.TabIndex = 10;
+            cboxEstilo.TabIndex = 9;
             cboxEstilo.SelectedIndexChanged += cboxEstilo_SelectedIndexChanged;
             // 
             // cBoxTipoEdicion
@@ -162,12 +165,22 @@
             btnAgregarDisco.UseVisualStyleBackColor = true;
             btnAgregarDisco.Click += btnAgregarDisco_Click;
             // 
+            // pbUrlImagen
+            // 
+            pbUrlImagen.Location = new Point(497, 88);
+            pbUrlImagen.Name = "pbUrlImagen";
+            pbUrlImagen.Size = new Size(305, 267);
+            pbUrlImagen.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbUrlImagen.TabIndex = 13;
+            pbUrlImagen.TabStop = false;
+            // 
             // frmAgregarDisco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(542, 483);
+            ClientSize = new Size(836, 483);
+            Controls.Add(pbUrlImagen);
             Controls.Add(btnAgregarDisco);
             Controls.Add(cBoxTipoEdicion);
             Controls.Add(cboxEstilo);
@@ -185,6 +198,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Agregar Disco";
             ((System.ComponentModel.ISupportInitialize)nudCantidad).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbUrlImagen).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -204,5 +218,6 @@
         private ComboBox cboxEstilo;
         private ComboBox cBoxTipoEdicion;
         private Button btnAgregarDisco;
+        private PictureBox pbUrlImagen;
     }
 }

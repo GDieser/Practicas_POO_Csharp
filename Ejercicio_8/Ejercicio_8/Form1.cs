@@ -14,6 +14,12 @@ namespace Ejercicio_8
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            cargarGrilla();
+
+        }
+
+        private void cargarGrilla()
+        {
             DiscoNegocio discos = new DiscoNegocio();
             listaDiscos = discos.listar();
             dgvDiscos.DataSource = listaDiscos;
@@ -66,6 +72,8 @@ namespace Ejercicio_8
         {
             frmAgregarDisco agregar = new frmAgregarDisco();
             agregar.ShowDialog();
+
+            cargarGrilla();
         }
     }
 }

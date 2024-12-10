@@ -36,7 +36,7 @@ namespace WinForm
 
         private void btnAgregarDisco_Click(object sender, EventArgs e)
         {
-            
+
             Disco disco = new Disco();
             DiscoNegocio nuevo = new DiscoNegocio();
 
@@ -112,7 +112,42 @@ namespace WinForm
 
         private void cboxEstilo_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
+
+        }
+
+        private void txbUrlImagen_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txbUrlImagen.Text);
+        }
+
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                pbUrlImagen.Load(imagen);
+            }
+            catch (Exception ex)
+            {
+                Random random = new Random();
+                int numeroAleatorio = random.Next(0, 3);
+
+                switch (numeroAleatorio)
+                {
+                    case 0:
+                        pbUrlImagen.Load("https://media.licdn.com/dms/image/v2/D4D35AQEuoIMseZ5ynA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1723436774597?e=1734141600&v=beta&t=99jFQK36rk02MQJQ9rav34y3QTT1DNluZ6DKwc7aH-A");
+                        break;
+                    case 1:
+                        pbUrlImagen.Load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7r2O4Oq5u1_Vnmkw72EnrBTwnNk0LLy7oz_6wqmlYrL2QFmrtJowGbBV6qcem6lDQD0&usqp=CAU");
+                        break;
+                    case 2:
+                        pbUrlImagen.Load("https://i.pinimg.com/236x/86/1c/a6/861ca60c3a2813c8e3250b9af138ada0.jpg");
+                        break;
+
+                    default:
+                        break;
+                }
+            }
 
         }
     }
