@@ -18,47 +18,72 @@ namespace WinForm
         private List<Estilo> listaEstilos;
         private List<TipoEdicion> listaTipos;
 
+        private Disco disco = null;
+
         public frmAgregarDisco()
         {
             InitializeComponent();
 
-            EstiloNegocio estiloNegocio = new EstiloNegocio();
-            listaEstilos = estiloNegocio.listar();
+        }
 
-            cboxEstilo.DataSource = listaEstilos;
+        public frmAgregarDisco(Disco disco)
+        {
+            InitializeComponent();
+            this.disco = disco;
 
-            TipoEdicionNegocio tipo = new TipoEdicionNegocio();
-            listaTipos = tipo.listar();
-
-            cBoxTipoEdicion.DataSource = listaTipos;
-
+            Text = "Modificar Disco";
         }
 
         private void btnAgregarDisco_Click(object sender, EventArgs e)
         {
 
-            Disco disco = new Disco();
+            //Disco disco = new Disco();
             DiscoNegocio nuevo = new DiscoNegocio();
 
-            if (!validarIngresos())
-                return;
+            try
+            {
+                if (!validarIngresos())
+                    return;
 
-            disco.Titulo = txbTitulo.Text;
-            disco.CantidadCanciones = (int)nudCantidad.Value;
+                if (disco == null)
+                {
+                    disco = new Disco();
+                }
 
-            string fecha = dtpFechaLanzamiento.Value.ToString("yyyy-MM-dd");
-            disco.FechaLanzamiento = fecha;
-            disco.UrlImagen = txbUrlImagen.Text;
+                disco.Titulo = txbTitulo.Text;
+                disco.CantidadCanciones = (int)nudCantidad.Value;
 
-            Estilo estilo = (Estilo)cboxEstilo.SelectedItem;
-            TipoEdicion tipo = (TipoEdicion)cBoxTipoEdicion.SelectedItem;
+                string fecha = dtpFechaLanzamiento.Value.ToString("yyyy-MM-dd");
+                disco.FechaLanzamiento = fecha;
+                disco.UrlImagen = txbUrlImagen.Text;
 
-            disco.IdEstilo = estilo.IdEstilo;
-            disco.IdTipoEdicion = tipo.IdTipo;
+                Estilo estilo = (Estilo)cboxEstilo.SelectedItem;
+                TipoEdicion tipo = (TipoEdicion)cBoxTipoEdicion.SelectedItem;
 
-            MessageBox.Show("Agregado Exitosamente", "Agregado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            nuevo.agregar(disco);
-            Close();
+                disco.IdEstilo = estilo.IdEstilo;
+                disco.IdTipoEdicion = tipo.IdTipo;
+
+                if (disco.IdDisco != 0)
+                {
+                    nuevo.modificar(disco);
+                    MessageBox.Show("Modificado Exitosamente", "Modificado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    nuevo.agregar(disco);
+                    MessageBox.Show("Agregado Exitosamente", "Agregado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+
+                Close();
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
 
         }
 
@@ -149,6 +174,47 @@ namespace WinForm
                 }
             }
 
+        }
+
+        private void frmAgregarDisco_Load(object sender, EventArgs e)
+        {
+            EstiloNegocio estiloNegocio = new EstiloNegocio();
+
+
+            TipoEdicionNegocio tipo = new TipoEdicionNegocio();
+
+
+            try
+            {
+                cboxEstilo.DataSource = estiloNegocio.listar();
+                cboxEstilo.ValueMember = "IdEstilo";
+                cboxEstilo.DisplayMember = "Descripcion";
+
+                cBoxTipoEdicion.DataSource = tipo.listar();
+                cBoxTipoEdicion.ValueMember = "IdTipo";
+                cBoxTipoEdicion.DisplayMember = "Descripcion";
+
+                if (disco != null)
+                {
+                    txbTitulo.Text = disco.Titulo;
+                    dtpFechaLanzamiento.Text = disco.FechaLanzamiento;
+                    nudCantidad.Text = disco.CantidadCanciones.ToString();
+                    txbUrlImagen.Text = disco.UrlImagen;
+                    cargarImagen(disco.UrlImagen);
+                    cboxEstilo.SelectedValue = disco.EstiloDisco.IdEstilo;
+                    cBoxTipoEdicion.SelectedValue = disco.Tipo.IdTipo;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

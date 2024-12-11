@@ -9,7 +9,7 @@ namespace Dominio
 {
     public class Disco
     {
-        
+        public int IdDisco { get; set; }
         public string Titulo { get; set; }
 
         [DisplayName("Lanzamiento")]

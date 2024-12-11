@@ -24,9 +24,11 @@ namespace Ejercicio_8
             listaDiscos = discos.listar();
             dgvDiscos.DataSource = listaDiscos;
 
-            dgvDiscos.Columns[3].Visible = false;
-            dgvDiscos.Columns[4].Visible = false;
-            dgvDiscos.Columns[5].Visible = false;
+            dgvDiscos.Columns["IdTipoEdicion"].Visible = false;
+            dgvDiscos.Columns["IdDisco"].Visible = false;
+            dgvDiscos.Columns["UrlImagen"].Visible = false;
+            dgvDiscos.Columns["IdEstilo"].Visible = false;
+            //dgvDiscos.Columns[5].Visible = false;
 
             pbDiscos.Load(listaDiscos[0].UrlImagen);
 
@@ -72,6 +74,18 @@ namespace Ejercicio_8
         {
             frmAgregarDisco agregar = new frmAgregarDisco();
             agregar.ShowDialog();
+
+            cargarGrilla();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            Disco seleccionado;
+
+            seleccionado = (Disco)dgvDiscos.CurrentRow.DataBoundItem;
+
+            frmAgregarDisco modificar = new frmAgregarDisco(seleccionado);
+            modificar.ShowDialog();
 
             cargarGrilla();
         }

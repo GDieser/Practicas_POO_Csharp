@@ -30,6 +30,11 @@ namespace Negocio
             comando.CommandText = consulta;
         }
 
+        public void setParametro(string parametro, object disco)
+        {
+            comando.Parameters.AddWithValue(parametro, disco); 
+        }
+
         public void ejecutarConsulta()
         {
             comando.Connection = conexion;

@@ -42,6 +42,7 @@
             cBoxTipoEdicion = new ComboBox();
             btnAgregarDisco = new Button();
             pbUrlImagen = new PictureBox();
+            btnCancelar = new Button();
             ((System.ComponentModel.ISupportInitialize)nudCantidad).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbUrlImagen).BeginInit();
             SuspendLayout();
@@ -157,11 +158,11 @@
             // btnAgregarDisco
             // 
             btnAgregarDisco.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnAgregarDisco.Location = new Point(147, 412);
+            btnAgregarDisco.Location = new Point(158, 412);
             btnAgregarDisco.Name = "btnAgregarDisco";
             btnAgregarDisco.Size = new Size(241, 34);
             btnAgregarDisco.TabIndex = 12;
-            btnAgregarDisco.Text = "Agregar Disco";
+            btnAgregarDisco.Text = "Aceptar";
             btnAgregarDisco.UseVisualStyleBackColor = true;
             btnAgregarDisco.Click += btnAgregarDisco_Click;
             // 
@@ -174,12 +175,24 @@
             pbUrlImagen.TabIndex = 13;
             pbUrlImagen.TabStop = false;
             // 
+            // btnCancelar
+            // 
+            btnCancelar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnCancelar.Location = new Point(507, 412);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(241, 34);
+            btnCancelar.TabIndex = 14;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
+            // 
             // frmAgregarDisco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(836, 483);
+            Controls.Add(btnCancelar);
             Controls.Add(pbUrlImagen);
             Controls.Add(btnAgregarDisco);
             Controls.Add(cBoxTipoEdicion);
@@ -197,6 +210,7 @@
             Name = "frmAgregarDisco";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Agregar Disco";
+            Load += frmAgregarDisco_Load;
             ((System.ComponentModel.ISupportInitialize)nudCantidad).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbUrlImagen).EndInit();
             ResumeLayout(false);
@@ -219,5 +233,6 @@
         private ComboBox cBoxTipoEdicion;
         private Button btnAgregarDisco;
         private PictureBox pbUrlImagen;
+        private Button btnCancelar;
     }
 }

@@ -31,6 +31,7 @@
             dgvDiscos = new DataGridView();
             pbDiscos = new PictureBox();
             btnAgregarDisco = new Button();
+            btnModificar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbDiscos).BeginInit();
             SuspendLayout();
@@ -67,12 +68,24 @@
             btnAgregarDisco.UseVisualStyleBackColor = true;
             btnAgregarDisco.Click += btnAgregarDisco_Click;
             // 
+            // btnModificar
+            // 
+            btnModificar.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnModificar.Location = new Point(28, 450);
+            btnModificar.Name = "btnModificar";
+            btnModificar.Size = new Size(125, 47);
+            btnModificar.TabIndex = 3;
+            btnModificar.Text = "Modificar Disco";
+            btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.Click += btnModificar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             ClientSize = new Size(924, 636);
+            Controls.Add(btnModificar);
             Controls.Add(btnAgregarDisco);
             Controls.Add(pbDiscos);
             Controls.Add(dgvDiscos);
@@ -90,5 +103,6 @@
         private DataGridView dgvDiscos;
         private PictureBox pbDiscos;
         private Button btnAgregarDisco;
+        private Button btnModificar;
     }
 }
