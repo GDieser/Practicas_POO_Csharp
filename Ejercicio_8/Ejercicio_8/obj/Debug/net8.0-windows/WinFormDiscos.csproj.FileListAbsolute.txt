@@ -58,3 +58,4 @@ C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8
 C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Ejercicio_8\obj\Debug\net8.0-windows\WinFormDiscos.pdb
 C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Ejercicio_8\obj\Debug\net8.0-windows\WinFormDiscos.genruntimeconfig.cache
 C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Ejercicio_8\obj\Debug\net8.0-windows\ref\WinFormDiscos.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\Ejercicio_8\Ejercicio_8\obj\Debug\net8.0-windows\WinFormDiscos.AgregarEstilo_Tipo.resources

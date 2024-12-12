@@ -32,6 +32,8 @@
             pbDiscos = new PictureBox();
             btnAgregarDisco = new Button();
             btnModificar = new Button();
+            btnAgregarEstilo = new Button();
+            btnTipo = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbDiscos).BeginInit();
             SuspendLayout();
@@ -79,12 +81,36 @@
             btnModificar.UseVisualStyleBackColor = true;
             btnModificar.Click += btnModificar_Click;
             // 
+            // btnAgregarEstilo
+            // 
+            btnAgregarEstilo.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarEstilo.Location = new Point(195, 382);
+            btnAgregarEstilo.Name = "btnAgregarEstilo";
+            btnAgregarEstilo.Size = new Size(125, 47);
+            btnAgregarEstilo.TabIndex = 4;
+            btnAgregarEstilo.Text = "Agregar Estilo";
+            btnAgregarEstilo.UseVisualStyleBackColor = true;
+            btnAgregarEstilo.Click += btnAgregarEstilo_Click;
+            // 
+            // btnTipo
+            // 
+            btnTipo.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnTipo.Location = new Point(350, 382);
+            btnTipo.Name = "btnTipo";
+            btnTipo.Size = new Size(175, 47);
+            btnTipo.TabIndex = 6;
+            btnTipo.Text = "Agregar Tipo de Lanzamiento";
+            btnTipo.UseVisualStyleBackColor = true;
+            btnTipo.Click += btnTipo_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             ClientSize = new Size(924, 636);
+            Controls.Add(btnTipo);
+            Controls.Add(btnAgregarEstilo);
             Controls.Add(btnModificar);
             Controls.Add(btnAgregarDisco);
             Controls.Add(pbDiscos);
@@ -104,5 +130,7 @@
         private PictureBox pbDiscos;
         private Button btnAgregarDisco;
         private Button btnModificar;
+        private Button btnAgregarEstilo;
+        private Button btnTipo;
     }
 }

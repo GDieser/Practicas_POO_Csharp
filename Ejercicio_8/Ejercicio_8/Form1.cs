@@ -1,6 +1,7 @@
 using Dominio;
 using Negocio;
 using WinForm;
+using WinFormDiscos;
 
 namespace Ejercicio_8
 {
@@ -88,6 +89,22 @@ namespace Ejercicio_8
             modificar.ShowDialog();
 
             cargarGrilla();
+        }
+
+        private void btnAgregarEstilo_Click(object sender, EventArgs e)
+        {
+            AgregarEstilo_Tipo agregar = new AgregarEstilo_Tipo();
+            agregar.esEstilo = true;
+
+            agregar.ShowDialog();
+        }
+
+        private void btnTipo_Click(object sender, EventArgs e)
+        {
+            AgregarEstilo_Tipo agregar = new AgregarEstilo_Tipo();
+            agregar.esEstilo = false;
+
+            agregar.ShowDialog(this);
         }
     }
 }
