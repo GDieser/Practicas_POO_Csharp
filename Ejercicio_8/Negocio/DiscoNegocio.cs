@@ -121,6 +121,25 @@ namespace Negocio
             }
 
         }
+
+        public void eliminarFisico(int idDisco)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setConsulta("DELETE FROM DISCOS WHERE Id = @idDisco");
+                datos.setParametro("@idDisco", idDisco);
+                datos.ejecutarAccion();
+
+                datos.cerrarConexion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
     }
 
 

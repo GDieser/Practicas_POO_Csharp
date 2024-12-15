@@ -34,6 +34,7 @@
             btnModificar = new Button();
             btnAgregarEstilo = new Button();
             btnTipo = new Button();
+            btnEliminarFisico = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbDiscos).BeginInit();
             SuspendLayout();
@@ -75,7 +76,7 @@
             btnModificar.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnModificar.Location = new Point(28, 450);
             btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(125, 47);
+            btnModificar.Size = new Size(186, 47);
             btnModificar.TabIndex = 3;
             btnModificar.Text = "Modificar Disco";
             btnModificar.UseVisualStyleBackColor = true;
@@ -103,12 +104,24 @@
             btnTipo.UseVisualStyleBackColor = true;
             btnTipo.Click += btnTipo_Click;
             // 
+            // btnEliminarFisico
+            // 
+            btnEliminarFisico.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEliminarFisico.Location = new Point(28, 515);
+            btnEliminarFisico.Name = "btnEliminarFisico";
+            btnEliminarFisico.Size = new Size(186, 47);
+            btnEliminarFisico.TabIndex = 7;
+            btnEliminarFisico.Text = "Eliminar Disco";
+            btnEliminarFisico.UseVisualStyleBackColor = true;
+            btnEliminarFisico.Click += btnEliminarFisico_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             ClientSize = new Size(924, 636);
+            Controls.Add(btnEliminarFisico);
             Controls.Add(btnTipo);
             Controls.Add(btnAgregarEstilo);
             Controls.Add(btnModificar);
@@ -132,5 +145,6 @@
         private Button btnModificar;
         private Button btnAgregarEstilo;
         private Button btnTipo;
+        private Button btnEliminarFisico;
     }
 }
