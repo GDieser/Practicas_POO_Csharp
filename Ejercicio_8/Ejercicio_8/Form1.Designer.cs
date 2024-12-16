@@ -35,6 +35,7 @@
             btnAgregarEstilo = new Button();
             btnTipo = new Button();
             btnEliminarFisico = new Button();
+            btnEliminarLogico = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbDiscos).BeginInit();
             SuspendLayout();
@@ -111,9 +112,20 @@
             btnEliminarFisico.Name = "btnEliminarFisico";
             btnEliminarFisico.Size = new Size(186, 47);
             btnEliminarFisico.TabIndex = 7;
-            btnEliminarFisico.Text = "Eliminar Disco";
+            btnEliminarFisico.Text = "Eliminar Disco (Fisico)";
             btnEliminarFisico.UseVisualStyleBackColor = true;
             btnEliminarFisico.Click += btnEliminarFisico_Click;
+            // 
+            // btnEliminarLogico
+            // 
+            btnEliminarLogico.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnEliminarLogico.Location = new Point(28, 577);
+            btnEliminarLogico.Name = "btnEliminarLogico";
+            btnEliminarLogico.Size = new Size(186, 47);
+            btnEliminarLogico.TabIndex = 8;
+            btnEliminarLogico.Text = "Eliminar Disco (Logico)";
+            btnEliminarLogico.UseVisualStyleBackColor = true;
+            btnEliminarLogico.Click += btnEliminarLogico_Click;
             // 
             // Form1
             // 
@@ -121,6 +133,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             ClientSize = new Size(924, 636);
+            Controls.Add(btnEliminarLogico);
             Controls.Add(btnEliminarFisico);
             Controls.Add(btnTipo);
             Controls.Add(btnAgregarEstilo);
@@ -146,5 +159,6 @@
         private Button btnAgregarEstilo;
         private Button btnTipo;
         private Button btnEliminarFisico;
+        private Button btnEliminarLogico;
     }
 }

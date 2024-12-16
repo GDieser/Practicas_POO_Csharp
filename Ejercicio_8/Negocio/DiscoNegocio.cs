@@ -21,7 +21,7 @@ namespace Negocio
             {
                 conexion.ConnectionString = "server=DESKTOP-O2NKURA\\SQLEXPRESS01; database=DISCOS_DB2; Integrated Security=True; TrustServerCertificate=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "Select D.Id, Titulo, FechaLanzamiento, CantidadCanciones, UrlImagenTapa, E.Descripcion As EstiloDescripcion, T.Descripcion As TipoDescripcion, E.Id As IdEstilo, T.Id As IdTipo From DISCOS D, ESTILOS E, TIPOSEDICION T Where E.Id = D.IdEstilo And D.IdTipoEdicion = T.Id";
+                comando.CommandText = "Select D.Id, Titulo, FechaLanzamiento, CantidadCanciones, UrlImagenTapa, E.Descripcion As EstiloDescripcion, T.Descripcion As TipoDescripcion, E.Id As IdEstilo, T.Id As IdTipo From DISCOS D, ESTILOS E, TIPOSEDICION T Where E.Id = D.IdEstilo And D.IdTipoEdicion = T.Id AND D.Activo = 1";
 
                 comando.Connection = conexion;
 
@@ -79,6 +79,8 @@ namespace Negocio
 
             try
             {
+                //INSERT INTO DISCOS VALUES('" + disco.Titulo + "', '', 1, '', 1, 1, 1, 1)
+                //dato.setConsulta("INSERT INTO DISCOS VALUES('" + disco.Titulo + "', '" + disco.FechaLanzamiento + "', " + disco.CantidadCanciones + ", '" + disco.UrlImagen + "', 1, " + disco.IdEstilo + ", 1 " + disco.IdTipoEdicion +")");
                 dato.setConsulta("Insert Into DISCOS Values ('" + disco.Titulo + "', '" + disco.FechaLanzamiento + "', " + disco.CantidadCanciones + ", '" + disco.UrlImagen + "', " + disco.IdEstilo + ", " + disco.IdTipoEdicion + ")");
                 dato.ejecutarAccion();
             }
@@ -128,6 +130,26 @@ namespace Negocio
             {
                 AccesoDatos datos = new AccesoDatos();
                 datos.setConsulta("DELETE FROM DISCOS WHERE Id = @idDisco");
+                datos.setParametro("@idDisco", idDisco);
+                datos.ejecutarAccion();
+
+                datos.cerrarConexion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
+        //UPDATE DISCOS SET Activo = 0 WHERE Id = @id
+
+        public void eliminarLogico(int idDisco)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.setConsulta("UPDATE DISCOS SET Activo = 0 WHERE Id = @idDisco");
                 datos.setParametro("@idDisco", idDisco);
                 datos.ejecutarAccion();
 

@@ -106,16 +106,35 @@ namespace Ejercicio_8
 
         private void btnEliminarFisico_Click(object sender, EventArgs e)
         {
+            eliminar();
+        }
+
+        private void btnEliminarLogico_Click(object sender, EventArgs e)
+        {
+            eliminar(true);
+        }
+
+        private void eliminar(bool logico = false)
+        {
             DiscoNegocio disco = new DiscoNegocio();
             Disco seleccionado;
             try
             {
                 DialogResult respuesta = MessageBox.Show("¿Confirmar acción?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                
+
                 if (respuesta == DialogResult.Yes)
                 {
                     seleccionado = (Disco)dgvDiscos.CurrentRow.DataBoundItem;
-                    disco.eliminarFisico(seleccionado.IdDisco);
+
+                    if(logico)
+                    {
+                        disco.eliminarLogico(seleccionado.IdDisco);
+                    }
+                    else
+                    {
+                        disco.eliminarFisico(seleccionado.IdDisco);
+                    }
+                    
                     cargarGrilla();
                 }
             }
