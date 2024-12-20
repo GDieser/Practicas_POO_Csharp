@@ -25,20 +25,27 @@ namespace Ejercicio_8
             listaDiscos = discos.listar();
             dgvDiscos.DataSource = listaDiscos;
 
-            dgvDiscos.Columns["IdTipoEdicion"].Visible = false;
-            dgvDiscos.Columns["IdDisco"].Visible = false;
-            dgvDiscos.Columns["UrlImagen"].Visible = false;
-            dgvDiscos.Columns["IdEstilo"].Visible = false;
+            ocultatColumnas();
             //dgvDiscos.Columns[5].Visible = false;
 
             pbDiscos.Load(listaDiscos[0].UrlImagen);
 
         }
 
+        private void ocultatColumnas()
+        {
+            dgvDiscos.Columns["IdTipoEdicion"].Visible = false;
+            dgvDiscos.Columns["IdDisco"].Visible = false;
+            dgvDiscos.Columns["UrlImagen"].Visible = false;
+            dgvDiscos.Columns["IdEstilo"].Visible = false;
+        }
         private void dgvDiscos_SelectionChanged(object sender, EventArgs e)
         {
-            Disco seleccionado = (Disco)dgvDiscos.CurrentRow.DataBoundItem;
-            cargarImagen(seleccionado.UrlImagen);
+            if (dgvDiscos.CurrentRow != null)
+            {
+                Disco seleccionado = (Disco)dgvDiscos.CurrentRow.DataBoundItem;
+                cargarImagen(seleccionado.UrlImagen);
+            }
         }
 
         private void cargarImagen(string imagen)
@@ -126,7 +133,7 @@ namespace Ejercicio_8
                 {
                     seleccionado = (Disco)dgvDiscos.CurrentRow.DataBoundItem;
 
-                    if(logico)
+                    if (logico)
                     {
                         disco.eliminarLogico(seleccionado.IdDisco);
                     }
@@ -134,7 +141,7 @@ namespace Ejercicio_8
                     {
                         disco.eliminarFisico(seleccionado.IdDisco);
                     }
-                    
+
                     cargarGrilla();
                 }
             }
@@ -143,6 +150,55 @@ namespace Ejercicio_8
 
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            /* List<Disco> listaFiltrada;
+             string filtro = tboxFiltro.Text;
+
+             if (filtro != "")
+             {
+                 ///Agregar para artistas
+                 listaFiltrada = listaDiscos.FindAll(x => x.Titulo.ToLower().Contains(filtro.ToLower()));
+             }
+             else
+             {
+                 listaFiltrada = listaDiscos;
+             }
+
+
+
+             dgvDiscos.DataSource = null;
+             dgvDiscos.DataSource = listaFiltrada;
+             ocultatColumnas();*/
+        }
+
+        private void tboxFiltro_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void tboxFiltro_TextChanged(object sender, EventArgs e)
+        {
+            List<Disco> listaFiltrada;
+            string filtro = tboxFiltro.Text;
+
+            if (filtro != "")
+            {
+                ///Agregar para artistas
+                listaFiltrada = listaDiscos.FindAll(x => x.Titulo.ToLower().Contains(filtro.ToLower()));
+            }
+            else
+            {
+                listaFiltrada = listaDiscos;
+            }
+
+
+
+            dgvDiscos.DataSource = null;
+            dgvDiscos.DataSource = listaFiltrada;
+            ocultatColumnas();
         }
     }
 }

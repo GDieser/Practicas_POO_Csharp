@@ -36,6 +36,9 @@
             btnTipo = new Button();
             btnEliminarFisico = new Button();
             btnEliminarLogico = new Button();
+            lblFiltro = new Label();
+            tboxFiltro = new TextBox();
+            btnBuscar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbDiscos).BeginInit();
             SuspendLayout();
@@ -127,12 +130,45 @@
             btnEliminarLogico.UseVisualStyleBackColor = true;
             btnEliminarLogico.Click += btnEliminarLogico_Click;
             // 
+            // lblFiltro
+            // 
+            lblFiltro.AutoSize = true;
+            lblFiltro.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblFiltro.Location = new Point(545, 391);
+            lblFiltro.Name = "lblFiltro";
+            lblFiltro.Size = new Size(54, 21);
+            lblFiltro.TabIndex = 9;
+            lblFiltro.Text = "Filtro:";
+            // 
+            // tboxFiltro
+            // 
+            tboxFiltro.Location = new Point(601, 391);
+            tboxFiltro.Name = "tboxFiltro";
+            tboxFiltro.Size = new Size(156, 23);
+            tboxFiltro.TabIndex = 10;
+            tboxFiltro.TextChanged += tboxFiltro_TextChanged;
+            tboxFiltro.KeyPress += tboxFiltro_KeyPress;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnBuscar.Location = new Point(773, 385);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(124, 36);
+            btnBuscar.TabIndex = 11;
+            btnBuscar.Text = "Buscar";
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gray;
             ClientSize = new Size(924, 636);
+            Controls.Add(btnBuscar);
+            Controls.Add(tboxFiltro);
+            Controls.Add(lblFiltro);
             Controls.Add(btnEliminarLogico);
             Controls.Add(btnEliminarFisico);
             Controls.Add(btnTipo);
@@ -148,6 +184,7 @@
             ((System.ComponentModel.ISupportInitialize)dgvDiscos).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbDiscos).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -160,5 +197,8 @@
         private Button btnTipo;
         private Button btnEliminarFisico;
         private Button btnEliminarLogico;
+        private Label lblFiltro;
+        private TextBox tboxFiltro;
+        private Button btnBuscar;
     }
 }
