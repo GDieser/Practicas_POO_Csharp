@@ -43,6 +43,7 @@
             btnAgregarDisco = new Button();
             pbUrlImagen = new PictureBox();
             btnCancelar = new Button();
+            btnAgregarImagen = new Button();
             ((System.ComponentModel.ISupportInitialize)nudCantidad).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbUrlImagen).BeginInit();
             SuspendLayout();
@@ -168,7 +169,7 @@
             // 
             // pbUrlImagen
             // 
-            pbUrlImagen.Location = new Point(497, 88);
+            pbUrlImagen.Location = new Point(519, 67);
             pbUrlImagen.Name = "pbUrlImagen";
             pbUrlImagen.Size = new Size(305, 267);
             pbUrlImagen.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -186,12 +187,24 @@
             btnCancelar.UseVisualStyleBackColor = true;
             btnCancelar.Click += btnCancelar_Click;
             // 
+            // btnAgregarImagen
+            // 
+            btnAgregarImagen.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAgregarImagen.Location = new Point(463, 227);
+            btnAgregarImagen.Name = "btnAgregarImagen";
+            btnAgregarImagen.Size = new Size(34, 28);
+            btnAgregarImagen.TabIndex = 15;
+            btnAgregarImagen.Text = "+";
+            btnAgregarImagen.UseVisualStyleBackColor = true;
+            btnAgregarImagen.Click += btnAgregarImagen_Click;
+            // 
             // frmAgregarDisco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
             ClientSize = new Size(836, 483);
+            Controls.Add(btnAgregarImagen);
             Controls.Add(btnCancelar);
             Controls.Add(pbUrlImagen);
             Controls.Add(btnAgregarDisco);
@@ -234,5 +247,6 @@
         private Button btnAgregarDisco;
         private PictureBox pbUrlImagen;
         private Button btnCancelar;
+        private Button btnAgregarImagen;
     }
 }

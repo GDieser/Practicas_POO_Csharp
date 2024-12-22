@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Negocio;
+using System.Configuration;
 
 namespace WinForm
 {
@@ -17,6 +18,7 @@ namespace WinForm
     {
         private List<Estilo> listaEstilos;
         private List<TipoEdicion> listaTipos;
+        private OpenFileDialog archivo = null;
 
         private Disco disco = null;
 
@@ -75,6 +77,10 @@ namespace WinForm
                     MessageBox.Show("Agregado Exitosamente", "Agregado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
+                if (archivo != null && !(txbUrlImagen.Text.ToLower().Contains("http"))) 
+                {
+                    File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + archivo.SafeFileName);
+                }
 
                 Close();
 
@@ -212,6 +218,20 @@ namespace WinForm
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void btnAgregarImagen_Click(object sender, EventArgs e)
+        {
+            archivo = new OpenFileDialog();
+
+            archivo.Filter = "jpg|*.jpg;|png|*.png";
+            if(archivo.ShowDialog() == DialogResult.OK)
+            {
+                txbUrlImagen.Text = archivo.FileName;
+                cargarImagen(archivo.FileName);
+
+                //File.Copy(archivo.FileName, ConfigurationManager.AppSettings["images-folder"] + archivo.SafeFileName);
+            }
         }
     }
 }
