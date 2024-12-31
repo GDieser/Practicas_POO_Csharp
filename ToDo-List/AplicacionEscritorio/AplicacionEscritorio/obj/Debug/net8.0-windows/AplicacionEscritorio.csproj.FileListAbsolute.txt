@@ -1,0 +1,17 @@
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\bin\Debug\net8.0-windows\AplicacionEscritorio.exe
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\bin\Debug\net8.0-windows\AplicacionEscritorio.deps.json
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\bin\Debug\net8.0-windows\AplicacionEscritorio.runtimeconfig.json
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\bin\Debug\net8.0-windows\AplicacionEscritorio.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\bin\Debug\net8.0-windows\AplicacionEscritorio.pdb
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.Form1.resources
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.csproj.GenerateResource.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.AssemblyInfoInputs.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.AssemblyInfo.cs
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.csproj.CoreCompileInputs.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.sourcelink.json
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\refint\AplicacionEscritorio.dll
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.pdb
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\AplicacionEscritorio.genruntimeconfig.cache
+C:\Users\Maxi C#\Curso LVL 2\Curso Segunda Parte 2024\PRACTICAS 2024\ToDo-List\AplicacionEscritorio\AplicacionEscritorio\obj\Debug\net8.0-windows\ref\AplicacionEscritorio.dll
