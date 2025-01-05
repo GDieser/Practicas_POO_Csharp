@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AplicacionEscritorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ad865a8c08c0f1fb8602aaf173c2e62658be846")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2f1f935d8c4640e064d0035add6b0a7a45ac281")]
 [assembly: System.Reflection.AssemblyProductAttribute("AplicacionEscritorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AplicacionEscritorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

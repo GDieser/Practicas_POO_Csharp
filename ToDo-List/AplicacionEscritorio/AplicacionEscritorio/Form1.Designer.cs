@@ -32,7 +32,7 @@
             btnAgregar = new Button();
             tboxItem = new TextBox();
             lblTitulo = new Label();
-            checkBox1 = new CheckBox();
+            clLista = new CheckedListBox();
             SuspendLayout();
             // 
             // lblLista
@@ -54,6 +54,7 @@
             btnAgregar.TabIndex = 1;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += btnAgregar_Click;
             // 
             // tboxItem
             // 
@@ -72,22 +73,21 @@
             lblTitulo.TabIndex = 3;
             lblTitulo.Text = "ITEM";
             // 
-            // checkBox1
+            // clLista
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(49, 161);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(83, 19);
-            checkBox1.TabIndex = 4;
-            checkBox1.Text = "checkBox1";
-            checkBox1.UseVisualStyleBackColor = true;
+            clLista.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            clLista.FormattingEnabled = true;
+            clLista.Location = new Point(49, 155);
+            clLista.Name = "clLista";
+            clLista.Size = new Size(365, 346);
+            clLista.TabIndex = 4;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(459, 557);
-            Controls.Add(checkBox1);
+            Controls.Add(clLista);
             Controls.Add(lblTitulo);
             Controls.Add(tboxItem);
             Controls.Add(btnAgregar);
@@ -104,6 +104,6 @@
         private Button btnAgregar;
         private TextBox tboxItem;
         private Label lblTitulo;
-        private CheckBox checkBox1;
+        private CheckedListBox clLista;
     }
 }
