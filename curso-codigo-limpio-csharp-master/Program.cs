@@ -58,15 +58,26 @@ namespace ToDo
                 string option = Console.ReadLine();
                 // Remove one position
                 int indexToRemove = Convert.ToInt32(option) - 1;
-                if (indexToRemove > -1 && TaskList.Count > 0)
+
+                if (indexToRemove > (TaskList.Count - 1) || indexToRemove < 0)
                 {
-                    string task = TaskList[indexToRemove];
-                    TaskList.RemoveAt(indexToRemove);
-                    Console.WriteLine("Tarea " + task + " eliminada");
+                    Console.WriteLine("Numero no valido");
                 }
+                else
+                {
+                    if (indexToRemove > -1 && TaskList.Count > 0)
+                    {
+                        string task = TaskList[indexToRemove];
+                        TaskList.RemoveAt(indexToRemove);
+                        Console.WriteLine("Tarea " + task + " eliminada");
+                    }
+                }
+
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                //throw ex;
+                Console.WriteLine("Error inesperado");
             }
         }
 
